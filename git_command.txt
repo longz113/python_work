@@ -3,12 +3,23 @@ cd /weizhi                      #确定git bash的工作区域，即下载和上
 git clone https://github.com/longz113/python_work.git             #把库下载到上述指定的盘中
 
 git add test.txt                             # 上传文件到缓存区
-
+git rm test.txt                             #删除文件
 git commit -m "beizhu"            #将缓存区文件提交到分支
-
 git push orogin master            #将分支文件提交到远程库
 
+
+
+
 git status   #查看工作区，缓存区的状态
+
+git checkout     #把文件在工作区的修改撤回
+git reset HEAD    #把暂存区的文件撤回到工作区
+git reset --hard HEAD^     #将工作区的版本退回到上一版本，HEAD是当前版本，HEAD^是上一版本，HEAD^^是上两个版本
+
+git log   查看commit 历史
+git reflog  产看命令历史
+
+
 
 将本地库和远程库对应起来
 在本地库文件所在位置打开git bash：
