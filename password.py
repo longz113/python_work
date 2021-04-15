@@ -1,6 +1,4 @@
-'''
-测试github是否可以
-'''
+
 print("Hello !")
 n=5
 while n:
