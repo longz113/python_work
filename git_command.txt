@@ -1,0 +1,20 @@
+cd /weizhi                      #确定git bash的工作区域，即下载和上传的盘，文件路径
+
+git clone https://github.com/longz113/python_work.git             #把库下载到上述指定的盘中
+
+git add test.txt                             # 上传文件到缓存区
+
+git commit -m "beizhu"            #将缓存区文件提交到分支
+
+git push orogin master            #将分支文件提交到远程库
+
+git status   #查看工作区，缓存区的状态
+
+将本地库和远程库对应起来
+在本地库文件所在位置打开git bash：
+git init
+git add .    #上传目录下所有文件
+git remote add origin https://github.com/longz113/python_work.git
+
+
+
