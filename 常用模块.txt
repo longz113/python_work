@@ -1,0 +1,1 @@
+turtle                   #用来绘制图案   import 模板    +    print(模板.__file__)查看模板位置
